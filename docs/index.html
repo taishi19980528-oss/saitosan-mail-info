@@ -1,0 +1,11 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="本人専用のメール認証補助ツールの機能と、Googleデータの扱いについて。"><title>斉藤さん メール認証 — アプリの説明</title><link rel="stylesheet" href="style.css"></head><body>
+<header><a href="./">斉藤さん メール認証</a></header>
+<main><p class="eyebrow">個人用のローカルツール</p><h1>メール認証を、<br>本人のMacから補助します。</h1>
+<p class="intro">「斉藤さん メール認証」は、本人が管理するGmailに届いた認証メールを確認し、本人のAndroid端末での認証入力を補助するツールです。</p>
+<div class="notice"><p>このサイトはツールの説明とポリシーの公開ページです。ログイン機能やメール入力欄はありません。ツールは本人専用で、一般向けの配布はしていません。</p></div>
+<h2>行うこと</h2><ol><li>本人がGoogleの同意画面で、対象Gmailの読み取りを許可します。</li><li>Mac内のプログラムが、対象件名と直近の時刻で認証メールを検索します。</li><li>宛先・受信時刻・本文を確認し、認証コードを本人のAndroidアプリの入力欄へ渡します。</li></ol>
+<h2>Googleへのアクセス</h2><p>Gmail APIの読み取り専用権限 <code>gmail.readonly</code> を使用します。この権限はメールボックスの読み取りを許可するもので、Googleの権限自体が認証メールだけに限定されるわけではありません。プログラム側で検索する件名と時刻を絞ります。</p>
+<h2>利用と管理</h2><p>処理は本人のMacで実行します。GoogleアカウントとAndroid端末の管理者である本人が、実行内容と結果を確認します。サポート窓口は、Googleの同意画面に表示されるアプリ管理者の連絡先です。</p>
+<p>このツールは個人による補助ツールです。「斉藤さん」アプリやGoogleの公式提供ツールではありません。</p>
+<h2>データの扱いと利用条件</h2><nav aria-label="ポリシー"><a href="privacy.html">プライバシーポリシー</a><a href="terms.html">利用条件</a></nav>
+</main><footer><p>最終更新：2026年11月2日</p></footer></body></html>
